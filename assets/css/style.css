@@ -5,30 +5,50 @@
 }
 
 body {
-  background-color: #d7b8a1;
+  background-color: #BF5700;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+.hr {
+  flex-direction: column;
+  height: 55px;
+  width: 1px;
+  background-color: #ffff;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 a:link {
   text-decoration: none;
-  color: #be4f05;
+  color: #ffff;
+  /*text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);*/
+}
+
+a:visited{
+  color: #ffff;
+  /*text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);*/
+}
+
+a:hover {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
 }
 
 header {
-  padding: 20px 10px;
+  padding: 0px 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   top: 0;
-  color: #be4f05;
 }
 
 header h1 {
+  padding-top: 5px;
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #be4f05;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #ffff;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 header nav ul {
@@ -42,11 +62,59 @@ header nav ul {
 header nav ul li a {
   padding: 10px 15px;
   font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+/* Main Image Styling start */
 
 .responsive {
   width: 100%;
   height: auto;
   margin: 0;
 }
+
+/* Main Image Styling end */
+
+/* Summary Styling start */
+
+summary {
+  flex: auto;
+  text-align: center;
+}
+
+summary h2 {
+  font-size: 36px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffff;
+}
+
+summary img {
+  width: 30%;
+  height: auto;
+  margin: 0;
+}
+
+.card {
+  color: white;
+  float: left;
+  width: calc(50% - 40px);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 200px;
+}
+
+.card img {
+  float: right;
+  padding-right: 50px;
+}
+
+.card p {
+  font-size: 18px;
+}
+.cardContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
