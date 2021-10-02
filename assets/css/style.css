@@ -77,44 +77,66 @@ header nav ul li a {
 /* Summary Styling start */
 
 summary {
-  flex: auto;
-  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-summary h2 {
-  font-size: 36px;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #ffff;
+.about-me-img img{
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
 }
 
-summary img {
-  width: 30%;
-  height: auto;
-  margin: 0;
+
+.discription {
+  padding: 5px;
 }
 
 .card {
-  color: white;
-  float: left;
-  width: calc(50% - 40px);
-  padding: 10px;
+  color: #ffff;
   border-radius: 10px;
-  margin: 10px;
-  height: 200px;
-}
-
-.card img {
-  float: right;
-  padding-right: 50px;
+  text-align: left;
+  flex: 1;
 }
 
 .card p {
   font-size: 18px;
-}
-.cardContainer:after {
-  content: "";
-  display: table;
-  clear: both;
+  text-indent: 50px;
 }
 
+
+.work1 {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.work1 img {
+  width: 800px;
+  position: relative;
+}
+
+.work1 p {
+  position: relative;
+  bottom: 30px;
+  margin-left: 10px;
+  color: #ffff;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+  font-size: 36px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffff;
+}
+  
+.card h3 {
+  text-align: center;
+}
 
