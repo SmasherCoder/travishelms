@@ -8,3 +8,4 @@ I am a student in a UT Boot Camp and this is my first portfolio.
 
 My portfolio can also be found at www.travis-helms.com
 
+![travis-helms.com](./assets/images/mockup.jpg)
