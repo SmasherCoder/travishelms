@@ -42,13 +42,20 @@ header {
   top: 0;
 }
 
-header h1 {
+h1 {
   padding-top: 5px;
   font-weight: bold;
   margin: 0;
   font-size: 36px;
   color: #ffff;
   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffff;
 }
 
 header nav ul {
@@ -60,7 +67,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 15px 15px;
   font-size: 1.55vw;
 }
 
@@ -74,13 +81,13 @@ header nav ul li a {
 
 /* Main Image Styling end */
 
-/* Summary Styling start */
+/* About-me Styling start */
 
 summary {
   margin-top: 15px;
 }
 
-.about-me-img img{
+.card img{
   width: 350px;
   height: 325px;
   margin-top: 15px;
@@ -88,17 +95,27 @@ summary {
 
 .card {
   color: #ffff;
-  border-radius: 15px;
   text-align: left;
 }
 
-.card p {
-  font-size: 18px;
-  text-indent: 50px;
-  padding: 15px;
+.card h3 {
+  text-align: center;
+  text-decoration: underline;
 }
 
+.card h4 {
+  text-align: center;
+}
 
+.card p {
+  margin-top: 10px;
+  font-size: 18px;
+  text-indent: 15px;
+}
+
+/* About-me Styling end */
+
+/* My-work Styling Start */
 .work1 {
   margin: 0 auto;
   width: 86%;
@@ -107,12 +124,11 @@ summary {
 
 .work1 img {
   max-height: 440px;
-  margin: 0 auto;
 }
 
 .work1 p {
   position: relative;
-  bottom: 30px;
+  bottom: 35px;
   margin-left: 10px;
   padding 5px;
   color: #ffff;
@@ -126,93 +142,96 @@ summary {
 }
 
 .flex-row2 {
-  flex: 1 1 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-evenly;
   flex-wrap: wrap;
   width: 93%;
   margin: 0 auto;
 }
 
-.center {
-  text-align: center;
-  font-size: 36px;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #ffff;
-}
-  
-.card h3 {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.card h4 {
-  text-align: center;
-}
-
-.my-work img {
-  width: 460px;
-  height: 460px;
+.flex-row2 img {
+  width: 500px;
+  height: 500px;
 }
 
 .flex-row2 p {
   position: relative;
-  bottom: 450px;
+  bottom: 500px;
   margin-left: 10px;
   padding 5px;
   color: #000;
 }
+/* My-work Styling end */
 
-#contact-me div {
+/* Contact-me Styling start */
+#contact-me section {
 margin-top: 15px;
 font-size: 24px;
 text-align: center;
 margin-bottom: 50px;
 }
+/* Contact-me Styling end */
 
 @media screen and (max-width: 700px) {
-  header h1 {
+  h1 {
     font-weight: bold;
     margin: 0 auto;
-    font-size: 36px;
+    font-size: 25px;
     color: #ffff;
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
 
+  h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffff;
+  }
+
+  /* remove the navigation dividers */
   .hr {
     display: none;
   }
 
+  /* make the navigation items bigger */
   header nav ul li a {
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
-  .card p {
-    font-size: 12px;
-    text-indent: 50px;
-    padding: 40px;
+  /* center the navigation bar */
+  nav {
+    margin: 0 auto;
   }
 
-  .flex-row2 p {
-    position: relative;
-    bottom: 300px;
-    margin-left: 10px;
-    padding 5px;
-    color: #000;
-  }
-
-  .my-work img {
-    width: 300px;
-    height: 300px;
-  }
-  
+  /* adjust the size of the picture of myself */
   .about-me-img img{
     width: 250px;
     height: 225px;
     margin-top: 15px;
-    margin-left: 55px;
+    margin-left: 54px;
    }
+
+  /* make the about me section text smaller */
+  .card p {
+    font-size: 12px;
+  }
+
+  /* adjust the label for my work section */
+  .flex-row2 p {
+    bottom: 300px;
+  }
+
+  /* adjust the size of my work images */
+  .flex-row2 img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* adjust the size of the click to mail link */
+  #contact-me div {
+    font-size: 18px;
+  }
 }
   
 }
