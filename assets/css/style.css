@@ -173,6 +173,12 @@ margin-bottom: 50px;
 /* Contact-me Styling end */
 
 @media screen and (max-width: 700px) {
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #BF5700;
+  }
+  
   h1 {
     font-weight: bold;
     margin: 0 auto;
