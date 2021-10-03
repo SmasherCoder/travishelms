@@ -77,40 +77,32 @@ header nav ul li a {
 /* Summary Styling start */
 
 summary {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 15px;
 }
 
 .about-me-img img{
   width: 350px;
   height: 325px;
-  margin-top: 50px;
-}
-
-
-.discription {
-  padding: 5px;
-  margin-left: 0px;
+  margin-top: 15px;
 }
 
 .card {
   color: #ffff;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: left;
-  flex: 1;
 }
 
 .card p {
   font-size: 18px;
   text-indent: 50px;
-  padding: 10px;
+  padding: 15px;
 }
 
 
 .work1 {
   margin: 0 auto;
   width: 86%;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 .work1 img {
@@ -172,8 +164,8 @@ summary {
 }
 
 #contact-me div {
-margin-top: 50px;
-font-size: 36px;
+margin-top: 15px;
+font-size: 24px;
 text-align: center;
 }
 
@@ -217,7 +209,7 @@ text-align: center;
   .about-me-img img{
     width: 250px;
     height: 225px;
-    margin-top: 50px;
+    margin-top: 15px;
     margin-left: 55px;
    }
 }
