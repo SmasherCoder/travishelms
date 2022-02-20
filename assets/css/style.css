@@ -135,7 +135,7 @@ summary {
   position: relative;
   bottom: 35px;
   margin-left: 10px;
-  padding 5px;
+  padding: 5px;
   color: #ffff;
 }
 
@@ -163,7 +163,7 @@ summary {
   position: relative;
   bottom: 500px;
   margin-left: 10px;
-  padding 5px;
+  padding: 5px;
   color: #000;
 }
 /* My-work Styling end */
